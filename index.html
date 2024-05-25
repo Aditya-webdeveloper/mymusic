@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main">
+        <i class="ri-arrow-right-circle-line circle"></i>
+        <div class="sidebar">
+            <h1>Music</h1>
+        </div>
+        <div class="center">
+            <div class="navbar">
+                <div class="lists">
+                    <ul>Music</ul>
+                    <ul>Prodcast</ul>
+                    <ul>Live</ul>
+                </div>
+                <div class="search">
+
+                    <input type="text" placeholder="What you want to listen ?">
+                </div>
+                <div class="settings">
+                    <h2><i class="ri-settings-fill"></i></h2>
+                </div>
+            </div>
+            <div class="upper-side">
+                <a href="liked.html"><button class="like">Liked Songs</button></a>
+            </div>
+            <div class="bottom">
+                <div class="left">
+                    <div class="top">
+                        <div class="top-songs">
+                            <h1>Top Songs</h1>
+                            <div style="display: flex;">
+                                <h2 class="arrowLeft"> <i class="ri-arrow-left-s-line" id="lefticon"></i></h2>
+                                <h2 class="arrowright"> <i class="ri-arrow-right-s-line" id="righticon"></i></h2>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="album">
+                                <img src="images/1.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all-songs">
+                        <div class="song-card">
+                            <div class="part-1">
+                                <img src="images/6.jpeg" alt="">
+                                <h3>let me down slowly</h3>
+                            </div>
+                            <div class="part-2">
+                                <h5>3:50</h5>
+                                <h3 class="play-1"><i class="ri-play-fill"></i></h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="songImg"></div>
+                    <h1>Let Me Down Slowly</h1>
+                    <div class="player">
+                        <div class="progress-bar">
+                            <div class="progess-duration">
+                                <div class="current-time">0:00</div>
+                                <div class="duration">3:00</div>
+                            </div>
+                            <div class="progress-meter">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <h3 class="back"><i class="ri-skip-back-mini-fill"></i></h3>
+                            <h3 class="play"><i class="ri-play-fill"></i></h3>
+                            <h3 class="next"><i class="ri-skip-right-fill"></i></h3>
+                        </div>
+                        <div style="position: relative;
+                        left: -32%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: right;">
+                            <h3 class="heart"><i class="ri-heart-fill"></i></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-2"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
